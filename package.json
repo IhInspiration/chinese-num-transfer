@@ -1,0 +1,26 @@
+{
+  "name": "chinese-num-transfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --env=node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IhInspiration/chinese-num-transfer.git"
+  },
+  "keywords": [
+    "chinese-number",
+    "arabic-number",
+    "number-transfer"
+  ],
+  "author": "jackwang",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^23.6.0"
+  }
+}
