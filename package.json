@@ -1,9 +1,11 @@
 {
   "name": "chinese-num-transfer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "src/index.js",
+  "main": "lib/index",
   "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "prepublish": "npm run build",
     "test": "jest --env=node"
   },
   "repository": {
